@@ -4,7 +4,7 @@ st.title("BMI CALCULATOR")
 height=st.slider("Select your height in cm:",100,250,100)
 weight=st.slider("Select your weight in kg:",40,300,40)
 BMI=(weight/(height/100)**2)
-st.write("The BMI is:",BMI)
+st.write("Your BMI is:",BMI)
 if BMI<=18.4:
     st.error("underweight")
 elif( BMI<=24.9 and BMI>=18.5)  :
