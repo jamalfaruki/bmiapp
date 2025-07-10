@@ -199,7 +199,7 @@ st.sidebar.markdown("""
 # Reset option
 if st.sidebar.button("🔄 Reset All"):
     st.session_state.bmi_history.clear()
-    st.experimental_rerun()
+    st.rerun()
 
 # Footer
 st.markdown("---")
