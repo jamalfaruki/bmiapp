@@ -69,7 +69,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("⚖️ BMI CALCULATOR (Animated Edition)")
+st.title("⚖️ BMI CALCULATOR")
 
 # Show time/date
 st.caption(f"🕒 Current Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -155,5 +155,6 @@ else:
 # Footer
 st.markdown("---")
 st.caption("🧠 Built with ❤️ using Streamlit| Zamal's BMI Tool 2025")
+
 
 
